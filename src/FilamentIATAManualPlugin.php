@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Consignr\FilamentIATAManual;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilamentIATAManualPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filamentiatamanual';
     }
 
     public function register(Panel $panel): void
